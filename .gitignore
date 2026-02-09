@@ -2,9 +2,14 @@
 /vendor/
 
 # Runtime (NO subir)
-storage/edusuite.sqlite
+storage/*.sqlite
+storage/*.db
 storage/uploads/
 storage/exports/
+
+# Mantener estructura de carpetas (si usas Git en local)
+!storage/uploads/.gitkeep
+!storage/exports/.gitkeep
 
 # Env / IDE
 .env
@@ -15,3 +20,5 @@ storage/exports/
 
 # Windows
 Thumbs.db
+
+

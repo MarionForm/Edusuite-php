@@ -1,0 +1,17 @@
+# Composer
+/vendor/
+
+# Runtime (NO subir)
+storage/edusuite.sqlite
+storage/uploads/
+storage/exports/
+
+# Env / IDE
+.env
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Windows
+Thumbs.db
